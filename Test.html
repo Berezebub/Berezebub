@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Wedding</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333333;
+      margin: 0;
+    }
+    main {
+      padding: 20px;
+      text-align: center; /* Center the text */
+    }
+    footer {
+      background-color: #f8f8f8;
+      padding: 10px;
+      text-align: center;
+    }
+    .picture {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .graphic {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    /* Remove bullets from list */
+    ul {
+      list-style: none;
+    }
+    ul li {
+      padding-left: 0;
+      text-indent: -1em;
+    }
+    /* RSVP section styles */
+    .rsvp-section {
+      margin-top: 30px;
+    }
+    .rsvp-form {
+      display: inline-block;
+      text-align: left;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .rsvp-form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .rsvp-form input[type="text"],
+    .rsvp-form input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #cccccc;
+      margin-bottom: 10px;
+    }
+    .rsvp-form input[type="submit"] {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .rsvp-form input[type="submit"]:hover {
+      background-color: #555555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Wedding</h1>
+  </header>
+  
+  <main>
+    <div class="picture">
+      <img src="wedding-photo.jpg" alt="Wedding Photo" width="500" height="500">
+    </div>
+    
+    <h2>Welcome to Our Wedding Website!</h2>
+    <p>
+      We are thrilled to announce our upcoming wedding celebration. Join us as we begin our journey together.
+    </p>
+    
+    <div class="graphic">
+      <img src="wedding-graphic.png" alt="Wedding Graphic" width="500" height="500">
+    </div>
+    
+    <h3>Event Details</h3>
+    <ul>
+      <li>Date: <strong>May 23, 2023</strong></li>
+      <li>Time: <strong>12:00AM - 4:00 PM</strong></li>
+      <li>Venue: <strong>City Hall Gardens</strong></li>
+      <li>Address: <strong>123 Wedding Street, Townsville</strong></li>
+
+
+    <div style="border: 1px solid black; padding: 1px;">
+    </ul>
+    <h3>RSVP</h3>
+    <p>
+      Please RSVP by filling out the form below:
+    </p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="guests">Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+      <br>
+      <input type="submit" value="RSVP">
+    </form>
+  </main>
